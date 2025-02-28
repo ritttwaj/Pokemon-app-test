@@ -1,23 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+To run your Pokemon Explorer app from the GitHub repository, here are the concise instructions:
 
-## Getting Started
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ritttwaj/Pokemon-app-test.git
+   cd Pokemon-app-test
+   ```
 
-First, run the development server:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3. **Create required images**
+   - Make sure you have a `public` folder with:
+     - `pokeball.png`
+     - `404-pikachu.png`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5. **View the application**
+   - Open your browser and go to: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-
+The app features a responsive Pokémon explorer with search functionality, detailed Pokémon information pages, and the ability to save favorite Pokémon.
