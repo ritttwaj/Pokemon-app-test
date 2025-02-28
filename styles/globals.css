@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@layer components {
+  .pokemon-card {
+    @apply bg-white rounded-lg shadow-md p-4 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium text-white transition-colors duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-pokeblue hover:bg-blue-700;
+  }
+}
